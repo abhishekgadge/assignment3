@@ -1,0 +1,68 @@
+header {
+	color: white;
+	font-size: 40px;
+	display: inline-block;
+}
+	
+nav {
+	color: white;
+	font-size: 15px;
+	margin : 5px;
+}
+
+nav > a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav > a:hover, a:active {
+  background-color: pink;
+}
+
+.h_bar {
+	background: red;
+	height: auto;
+	width: auto;
+	padding: 5px;
+}
+
+table {
+	border-style: solid;
+	border-color: black;
+	width: 100%;
+	font-size : 18px;
+}
+
+div {
+	height : 400px;
+}
+
+td {
+	border-style: solid;
+	border-color: black;
+	font-size : 18px;
+	text-align: center;
+	border-width: 1px;
+}
+
+.forminput{
+	width: 25%;
+	margin: 2px;
+}
+
+#checkbox {
+	width: auto;
+}
+
+#feedback {
+	width: 80%;
+	height: 100px;
+}
+
+#footer {
+	margin-top: 10px;
+}
